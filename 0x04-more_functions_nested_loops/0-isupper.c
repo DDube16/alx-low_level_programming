@@ -8,7 +8,7 @@
 
 int _isupport(int x)
 {
-	if (x >= 65 && x= 98)
+	if (x >= 65 && x <= 98)
 	{
 	return (1);
 	}
