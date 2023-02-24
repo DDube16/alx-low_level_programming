@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-* times_table - prints the 9 times table, starting with 0
-*/
+ * times_table - prints the 9 times table, starting with 0
+ */
 void times_table(void)
 {
-int i, j, k;
-
+	int i, j, k;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -17,7 +16,6 @@ int i, j, k;
 			{
 				_putchar(k + '0');
 			}
-
 
 			if (k < 10 && j != 0)
 			{
@@ -36,4 +34,3 @@ int i, j, k;
 		_putchar('\n');
 	}
 }
-
